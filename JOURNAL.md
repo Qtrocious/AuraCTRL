@@ -1,10 +1,15 @@
+---
+title: "AuraCTRL"
+author: "@Qtrocious"
+description: "An LED ring that goes in your temple, inspired by the Androids from Detroit: Become Human!"
+created_at: "2025-06-12"
+---
+
 # June 12 
 
 This is my second project and my first custom project!
 
-Today i started to brainstorm, since highway started i created a canvas called "Pitch Ideas for Highway"
-
-And since i wanted to make something simple but super cool.
+Today i started to brainstorm. And i wanted to make something simple but super cool.
 
 After sometime of brainstorming ideas, I got with making a simple but super cool project, with my new experience in fusion and kicad, I got to the idea of making the LED ring that the android from DBH have on their temple, they serve the purpose of showing processing operations, damage caused, and other things.
 
@@ -35,13 +40,21 @@ I wanna make 3d printed buttons that go over the buttons so it looks more profes
 
 > Im leaning over the push buttons with the 6x6x12mm, so i can fit the 3d part and make it stick to the button, also maybe a display to select color and animation of led, plus with a rotary encoder, animation speed
 
-+image pcb and shematic
+![Captura de pantalla 2025-06-13 163717](https://github.com/user-attachments/assets/bc36951d-31d4-4fde-9fed-77ddd957c63d)
 
-The outer circle is 40mm in diameter and the inner is 20mm
+> The outer circle is 40mm in diameter and the inner is 20mm
+
+![Captura de pantalla 2025-06-14 001225](https://github.com/user-attachments/assets/2bf4e900-c1ad-488f-8a8d-f859ad23b71d)
 
 I put in an array of circular thingy tool form kicad to place it right.
 
+![Captura de pantalla 2025-06-14 001236](https://github.com/user-attachments/assets/e258816f-28cf-435e-9e4c-a35ff718d3d8)
+
 Traced the components and added the buttons in a matrix of 3x3, and tomorrow adding the display, maybe a 128x64 just to see how it would turn out!
+
+![image](https://github.com/user-attachments/assets/4b44fae3-b550-45f3-b58e-73520b7d1b32)
+
+> Here you can see the buttons and the rotary encoder. 
 
 So i know there are certain pcb that come with modules, but are separated by a thin line of pcb board, so you can easily break them, they are called breakable pcb module, or mouse bites, well since i'll be essentially making two pcbs, this is perfect for that!
 
@@ -49,7 +62,17 @@ So i know there are certain pcb that come with modules, but are separated by a t
 
 I'll still need to figure out how to do that, i think i almost got it.
 
-Time Spent: 6 hours
+I also wanted to make a 3d model of the control for the call with Scotty from Strange Parts! It helped me a lot to visualize it further
+
+I present you the first iteration of the AuraCTRL case 
+
+![image](https://github.com/user-attachments/assets/e2df5dd9-a92c-4ea1-9319-c90c2a847d2f)
+![Captura de pantalla 2025-06-13 164034](https://github.com/user-attachments/assets/c9067f3f-b7dc-442e-8432-e6f187fab371)
+![Captura de pantalla 2025-06-13 164057](https://github.com/user-attachments/assets/c5455b65-a8e4-4339-8802-9a49cef005f1)
+
+> It will slide but have enough grip to keep it in place, it will be around the wrist, i still need to learn about maybe how to make it adjustable so everyone can use it, maybe take inspiration from the pip boy project!
+
+Time Spent: 8 hours
 
 # June 14
 Added the display, with 3d model from grabcad 
