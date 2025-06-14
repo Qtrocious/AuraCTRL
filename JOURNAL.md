@@ -51,3 +51,23 @@ I'll still need to figure out how to do that, i think i almost got it.
 
 Time Spent: 6 hours
 
+# June 14
+Added the display, with 3d model from grabcad 
+> add the link https://grabcad.com/library/display-oled-ssd1306-de-0-96-1, also the footprin https://github.com/pforrmi/KiCad-SSD1306-128x64/blob/master/library/SSD1306.pretty/128x64OLED.kicad_mod
+
+
+So with the display now on the pcb, i need to change the size of it
+
+image of new pcb size
+
+
+Been researching and learned about AWG, so for simple connections ill need large 22 AWG cables, luckily a friend knows a store called "Electrónica Para Estudiantes" and they sell 3 meters of it for half a dollar. 
+
+Okay after some time, i placed the parts and build the pcb outline, made the first draft of the v notch (i think its called like that?)
+
+And rewired the neopixels, so what's left is tracing the control module!
+
+Here it looks as of now, it looks like a phone lol
+
+
+Time Spent: 3.5 hours
