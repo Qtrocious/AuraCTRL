@@ -26,3 +26,28 @@ After researching and getting the help of some concepts with chatgpt and deepsee
 Time spent: 2 hours
 
 # June 13 
+
+Started to try to make the shape of the pcb and placing out all the components.
+
+I already had the footprint of the sk6812 led, rotary encoder, what's yet to be determined is the button.
+
+I wanna make 3d printed buttons that go over the buttons so it looks more professional, but first i need to find which. 
+
+> Im leaning over the push buttons with the 6x6x12mm, so i can fit the 3d part and make it stick to the button, also maybe a display to select color and animation of led, plus with a rotary encoder, animation speed
+
++image pcb and shematic
+
+The outer circle is 40mm in diameter and the inner is 20mm
+
+I put in an array of circular thingy tool form kicad to place it right.
+
+Traced the components and added the buttons in a matrix of 3x3, and tomorrow adding the display, maybe a 128x64 just to see how it would turn out!
+
+So i know there are certain pcb that come with modules, but are separated by a thin line of pcb board, so you can easily break them, they are called breakable pcb module, or mouse bites, well since i'll be essentially making two pcbs, this is perfect for that!
+
+> Don't want to say this took a lot of time but this took a lot of time TT
+
+I'll still need to figure out how to do that, i think i almost got it.
+
+Time Spent: 6 hours
+
