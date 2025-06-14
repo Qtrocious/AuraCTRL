@@ -1,3 +1,10 @@
+---
+title: "AuraCTRL"
+author: "@Qtrocious"
+description: "An LED ring that goes in your temple, inspired by the Androids from Detroit: Become Human!"
+created_at: "2025-06-12"
+---
+
 # June 12 
 
 This is my second project and my first custom project!
