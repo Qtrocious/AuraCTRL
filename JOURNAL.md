@@ -1,5 +1,5 @@
 ---
-title: "AuraCTRL"
+title: "Radiant"
 author: "@Qtrocious"
 description: "An LED ring that goes in your temple, inspired by the Androids from Detroit: Become Human!"
 created_at: "2025-06-12"
@@ -94,3 +94,26 @@ Here it looks as of now, it looks like a phone lol
 
 
 Time Spent: 3.5 hours
+
+# June 15 
+
+> Forgot to journal this day lol
+
+I repositioned the neopixels module board, and had to make some vias so when soldering i put the cables in it so i connect them easily
+
+Time Spent: 1 hour
+
+# June 16
+
+I wanted to start making the first draft of the code, i knew i wanted to use micropython, and since the schematic looks the same as the macropad (i just realized this sorry T-T), i figured i'd research on how to make a keypad matrix on micropython.
+
+Plus how to setup a my display of 128x36, and got the idea of making an interface, going through it with the rotary encoder like an omnitrix lol
+
+So the code looks like this now, im getting used to the logic of this so yeah!
+
++image 
+
+Also Summer of Making launched, super perfect to start redoing the pcb design, adding some silkscreen art omg
+
+
+Time Spent: 1.5 hours
