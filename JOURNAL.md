@@ -165,8 +165,6 @@ I downloaded the svg file from the highway website
 I'll maybe add more art, but it's a **maybe**
 Right now i'll export the pcb STEP file to fusion to figure out the shape of the case.
 
-Time Spent: 1.5 hours
-
 I began importing it, and making some sketches, i needed to recreate the pcbs layout as it was no letting me use the Sketch Dimension
 
 ![image](https://github.com/user-attachments/assets/1bc40b6a-ef7c-45c4-9f6f-dd54f09eca79)
@@ -182,3 +180,7 @@ I realized that i could easily make it look like a watch, so i used (Excalidraw)
 
 I think i'll base the design on how devices are built in Detroit: Become human maybe even add some leds to the watch also! 
 
+And i'll have to look on how to make custom 3d printed buttons that fit on the push buttons 💀
+
+
+Time Spent: 4 hours
