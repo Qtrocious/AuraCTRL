@@ -167,3 +167,18 @@ Right now i'll export the pcb STEP file to fusion to figure out the shape of the
 
 Time Spent: 1.5 hours
 
+I began importing it, and making some sketches, i needed to recreate the pcbs layout as it was no letting me use the Sketch Dimension
+
+![image](https://github.com/user-attachments/assets/1bc40b6a-ef7c-45c4-9f6f-dd54f09eca79)
+
+![image](https://github.com/user-attachments/assets/ed8676e7-f28d-48f4-ae00-557adbc701f1)
+
+
+And i found out my pcbs outline is not what i was looking for, which was a sort of control that handled the leds colour which would be strapped in my wrist.
+
+I realized that i could easily make it look like a watch, so i used (Excalidraw)[https://excalidraw.com/] to sketch something up, i actually like it, it less dense, and easily accessible 
+
+![image](https://github.com/user-attachments/assets/217698d6-b7cd-4193-9eb4-252d4d3fb110)
+
+I think i'll base the design on how devices are built in Detroit: Become human maybe even add some leds to the watch also! 
+
