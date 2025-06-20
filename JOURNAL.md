@@ -184,3 +184,11 @@ And i'll have to look on how to make custom 3d printed buttons that fit on the p
 
 
 Time Spent: 4 hours
+
+# June 18
+
+So for this day i redesigned the pcb routing, tracing, shape and the esp32 orientation, so it is now underneath the oled display, it sure looks a lot more polished!
+
+And then i imported the model to fusion and started to make the initial design of the case, i'm leaning on making it retro futuristic, but keeping it basic.
+
+I wanna make the top case a kind of hinge, and make it snap fit into the bottom case, also a knob for the encoder 
