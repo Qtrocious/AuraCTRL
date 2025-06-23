@@ -215,3 +215,18 @@ Time Spent: 3 hours
 
 # June 22
 
+I did a knurled knob for the encoder to make it have a texture, also because it looks clean bro what the helly
+
+![image](https://github.com/user-attachments/assets/e2e4ed34-c7e9-4a78-88bd-8e73f1459721)
+
+I initially worked on making it threaded but after trying and watching a few tutorials a i just didn't quite have it, so i went to just having it be tight fit, or something like that  
+
+![image](https://github.com/user-attachments/assets/e196c0ab-e375-4656-9894-9c527a1c2020)
+
+Also added some sort of supports for the pcb to be in place, and the pink thingy is the battery, and it didn't fit, so i had to scale the bottom case so the battery fits
+
+![image](https://github.com/user-attachments/assets/50633bc5-dcc2-486f-9815-3e2125144e55)
+
+I want to try making the cases snap fit, but i'll ask in the slack for help lol
+
+ Time Spent: 3 hours
