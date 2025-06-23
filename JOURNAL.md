@@ -229,4 +229,5 @@ Also added some sort of supports for the pcb to be in place, and the pink thingy
 
 I want to try making the cases snap fit, but i'll ask in the slack for help lol
 
+Also, i need a boost converter (MT3608) so the leds powers up with a sufficient and stable 5v, and for the data input im gonna use a level shifter, so I'll need to redesign the pcb a tiny bit
  Time Spent: 3 hours
