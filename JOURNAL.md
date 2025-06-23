@@ -189,6 +189,29 @@ Time Spent: 4 hours
 
 So for this day i redesigned the pcb routing, tracing, shape and the esp32 orientation, so it is now underneath the oled display, it sure looks a lot more polished!
 
+![Captura de pantalla 2025-06-18 110200](https://github.com/user-attachments/assets/dee06836-e253-4202-b311-a16034bc6bd7)
+
+![Captura de pantalla 2025-06-18 110930](https://github.com/user-attachments/assets/c8403e28-4ff7-43d8-983a-384d5a864871)
+
+![Captura de pantalla 2025-06-18 112512](https://github.com/user-attachments/assets/b036f8ba-c28f-4d07-9b09-b22ee8c25af1)
+
 And then i imported the model to fusion and started to make the initial design of the case, i'm leaning on making it retro futuristic, but keeping it basic.
 
-I wanna make the top case a kind of hinge, and make it snap fit into the bottom case, also a knob for the encoder 
+![image](https://github.com/user-attachments/assets/02ff84f5-4833-43f7-a9df-a815a66ab9f1)
+
+Time Spent: 4 hours
+
+# June 20 
+
+Spent some time looking at like retro tech designs, although i didn't wanna get too inmmersed, so i just got a little inspired by what the old playstations looked like and their controllers
+
+![Captura de pantalla 2025-06-20 140720](https://github.com/user-attachments/assets/5d203eed-5ced-4a97-8d24-0cb94ef85740)
+
+It took it's time but i like it a lot, its my second time using fusion so im quite proud lol.
+
+What's next is I wanna do a custom knurled knob for the rotary encoder, and do a cover for the display, and a snap fit typa thing
+
+Time Spent: 3 hours
+
+# June 22
+
