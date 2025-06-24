@@ -230,4 +230,21 @@ Also added some sort of supports for the pcb to be in place, and the pink thingy
 I want to try making the cases snap fit, but i'll ask in the slack for help lol
 
 Also, i need a boost converter (MT3608) so the leds powers up with a sufficient and stable 5v, and for the data input im gonna use a level shifter, so I'll need to redesign the pcb a tiny bit
- Time Spent: 3 hours
+
+Time Spent: 3 hours
+
+# June 23
+Since i am a beginner in the  electronics worlds, i used ai for feedback and suggestions.
+
+One of those were that i should power the leds from 5v, but i used a 3.7 Li-Po battery, it recommended a dc boost converter (MT3608).
+
+Also since the esp-32 outputs 3.3v logic, and the LEDs require 5v logic, i used a logic level shifter to step up the signal from 3.3 to 5v.
+
+So i'll have to make the cases for those + the ring case that diffuses the led + the snap fit feature for the pcbs case.
+
+I added a switch to power ON/OFF the device, [i forgot i had to do that if i want to solder the battery], and the switch that does not go on the pcb.
+
+![image](https://github.com/user-attachments/assets/af4cc1d7-46f0-45f2-b184-e89ce80322f4)
+
+Time Spent: 2 hours
+
