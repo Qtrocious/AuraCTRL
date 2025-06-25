@@ -252,7 +252,7 @@ It was SO DIFFICULT BRO WHAT THE HELLY
 OKay, so after spending like 1.5 hours watching tutorials and trying the snap fit thingy (that tbh, looks gross)
 ![image](https://github.com/user-attachments/assets/e29583a8-f4f8-49df-8d85-7a7676cb8b96)
 
-I came across a [video from Makers Muse] (https://www.youtube.com/watch?v=7JhjhgjchfM&t=150s) showing how to make 3d printable hinges with different techniques.
+I came across a [video from Makers Muse](https://www.youtube.com/watch?v=7JhjhgjchfM&t=150s) showing how to make 3d printable hinges with different techniques.
 
 And i reallyyy liked the simplicity of [this one](https://youtu.be/7JhjhgjchfM?si=51YC1HOzv-ZzKoi6&t=152)
 > Picture from the video/technique
