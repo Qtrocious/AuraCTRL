@@ -229,8 +229,6 @@ Also added some sort of supports for the pcb to be in place, and the pink thingy
 
 I want to try making the cases snap fit, but i'll ask in the slack for help lol
 
-Also, i need a boost converter (MT3608) so the leds powers up with a sufficient and stable 5v, and for the data input im gonna use a level shifter, so I'll need to redesign the pcb a tiny bit
-
 Time Spent: 3 hours
 
 # June 23
@@ -248,3 +246,46 @@ I added a switch to power ON/OFF the device, [i forgot i had to do that if i wan
 
 Time Spent: 2 hours
 
+# June 24 
+It was SO DIFFICULT BRO WHAT THE HELLY
+
+OKay, so after spending like 1.5 hours watching tutorials and trying the snap fit thingy (that tbh, looks gross)
+![image](https://github.com/user-attachments/assets/e29583a8-f4f8-49df-8d85-7a7676cb8b96)
+
+I came across a (video from Makers Muse ) [https://www.youtube.com/watch?v=7JhjhgjchfM&t=150s] showing how to make 3d printable hinges with different techniques.
+
+And i reallyyy liked the simplicity of (this one) [https://youtu.be/7JhjhgjchfM?si=51YC1HOzv-ZzKoi6&t=152].
+> Picture from the video/technique
+![image](https://github.com/user-attachments/assets/17ebe632-f262-4407-a27c-f70f2c147879)
+
+And i wanted to adapt that, to be snap fit-able or that type of thing, after some discoveries of useful functions from fusion (midplane, sphere, offsetting the sketch plane) i came up with this
+
+![image](https://github.com/user-attachments/assets/f717cfdc-f71a-436b-963f-1f532761160b)
+![image](https://github.com/user-attachments/assets/100bc9dd-ac07-4603-a8d1-9947e8a38b8a)
+
+It looks super great and it was time for making this but for the cases of the level shifter module and MT3608. I had to make holes for the wire to go through.
+
+Level Shifter Module:
+> Holes for the wire
+![image](https://github.com/user-attachments/assets/874d3ce3-94b6-45cc-9f3e-f62e730ad101)
+> IT FITS!
+![image](https://github.com/user-attachments/assets/34a98695-fbd6-4963-b3a3-7ff36bf22433)
+> It has it's little supports so it doesn't move as much
+![image](https://github.com/user-attachments/assets/c6c9f358-9df5-4099-beb4-e2b7ed6af939)
+> And the snap fit feature! Maybe it's tiny, but i could hot glue this so it's okay if that breaks
+![image](https://github.com/user-attachments/assets/fea54267-c894-4f80-bd3d-bb3275d945a2)
+
+MT3608:
+> Holes for the wire, yeah
+![image](https://github.com/user-attachments/assets/1354807a-508e-4aee-8ef1-bcb78e68584e)
+> the same, it fits and has the snap fit and all
+![image](https://github.com/user-attachments/assets/785a8371-50c7-4d3c-a76f-f35f49494abc)
+> and for the pcb it has it's own snap fit
+![image](https://github.com/user-attachments/assets/34e9a2b0-be63-486e-a046-696b79b5a474)
+
+And that's 4.5 hours of work, super goated, also im finished with modelling FINALLY. Although i want to add some text on the cases 
+
+So what's next is making the programm: RadiantOS
+> Sounds cool
+
+Time Spent: 4.5 hours
