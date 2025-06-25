@@ -256,6 +256,7 @@ I came across a (video from Makers Muse ) [https://www.youtube.com/watch?v=7Jhjh
 
 And i reallyyy liked the simplicity of (this one) [https://youtu.be/7JhjhgjchfM?si=51YC1HOzv-ZzKoi6&t=152].
 > Picture from the video/technique
+
 ![image](https://github.com/user-attachments/assets/17ebe632-f262-4407-a27c-f70f2c147879)
 
 And i wanted to adapt that, to be snap fit-able or that type of thing, after some discoveries of useful functions from fusion (midplane, sphere, offsetting the sketch plane) i came up with this
@@ -267,20 +268,27 @@ It looks super great and it was time for making this but for the cases of the le
 
 Level Shifter Module:
 > Holes for the wire
+
 ![image](https://github.com/user-attachments/assets/874d3ce3-94b6-45cc-9f3e-f62e730ad101)
 > IT FITS!
+
 ![image](https://github.com/user-attachments/assets/34a98695-fbd6-4963-b3a3-7ff36bf22433)
 > It has it's little supports so it doesn't move as much
+
 ![image](https://github.com/user-attachments/assets/c6c9f358-9df5-4099-beb4-e2b7ed6af939)
 > And the snap fit feature! Maybe it's tiny, but i could hot glue this so it's okay if that breaks
+
 ![image](https://github.com/user-attachments/assets/fea54267-c894-4f80-bd3d-bb3275d945a2)
 
 MT3608:
 > Holes for the wire, yeah
+
 ![image](https://github.com/user-attachments/assets/1354807a-508e-4aee-8ef1-bcb78e68584e)
 > the same, it fits and has the snap fit and all
+
 ![image](https://github.com/user-attachments/assets/785a8371-50c7-4d3c-a76f-f35f49494abc)
 > and for the pcb it has it's own snap fit
+
 ![image](https://github.com/user-attachments/assets/34e9a2b0-be63-486e-a046-696b79b5a474)
 
 And that's 4.5 hours of work, super goated, also im finished with modelling FINALLY. Although i want to add some text on the cases 
