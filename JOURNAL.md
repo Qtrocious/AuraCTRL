@@ -297,3 +297,135 @@ So what's next is making the programm: RadiantOS
 > Sounds cool
 
 Time Spent: 4.5 hours
+
+# June 25
+Focused on writing the firmware, made a lot of progress! 
+I looked into micropython docs about neopixels and adapted it into my setup
+This code makes all the leds go white
+```
+# Sourced from the micropython docs:
+# Will tinker with this when leds arrive
+pin = Pin(2, Pin.OUT)   # set GPIO0 to output to drive NeoPixels
+np = NeoPixel(pin, 7)   # create NeoPixel driver on GPIO0 for 8 pixels
+np[0] = (255, 255, 255) # set the first pixel to white
+np.write()              # write data to all pixels
+r, g, b = np[0]         # get first pixel colour
+```
+I then discovered [Wokwi](https://wokwi.com/), an online esp32 simulator, and searched for examples for neopixels and found this 2:
+
+[Esp32 with oled display](https://wokwi.com/projects/305568836183130690) 
+[Esp32 with a neopixels ring!](https://wokwi.com/projects/305569065545499202) which is just what i needed for visualization
+
+I used this to visualize how it would all work out, and i'm to see it will work! 
+
+I then proceeded to learn on how to make menus and submenus, with these if statements, it's my first time using this so i got the ai to help me fully understand how i could use these, also learned about f strings and the len() function 
+
+Current code makes it so when Confirm is pressed it will enter a certain submenu or go back to the main menu, in the case of the leds submenu, when the Blue option is "Confirmed" it will then go change the leds color to fully blue, the Neopixels can be animated for what i encountered, like this:
+[Controlling Neopixels](https://docs.micropython.org/en/latest/esp8266/tutorial/neopixel.html)
+
+But for now look at the code as of now, with the help of ai examples and explanations i was able to make this, Leds animations and color setups are still on progress because i want to test this IRL! And planning on printing the case at Undercity
+```
+def draw_selection():
+    display.fill(0)
+    for i, item in enumerate(current_menu):
+        if i == selected:
+            prefix = ">" 
+        else: 
+            prefix = ""
+        display.text(f"{prefix} {item}", 0, i * 10)
+    display.show()
+    
+    
+while True:
+    draw_selection()
+    key = keypad.read_keypad()
+    
+    
+    if key == "Down":
+        selected = (selected + 1) % len(current_menu)
+    elif key == "Up":
+        selected = (selected - 1) % len(current_menu)
+    elif key == "Sleep Mode Activated":
+        machine.deepsleep(1000000)
+        
+    elif key == "Confirm":
+        selected_item = current_menu[selected]
+        # rn LEDs options don't exactly do anything much to the leds, but will add it once the hackpad arrive
+        if selected_item == "LEDs":
+            current_menu = led_submenu
+            selected = 0
+            in_submenu = True
+            if in_submenu and selected_item == "Back":
+                current_menu = main_menu
+                selected = 0
+                in_submenu = False
+            else:
+                if selected_item == "Blue":
+                    np[0] = (0,0,255)
+                    np.write()
+                    display.fill(0)
+                    display.text("LED: Blue", 0,0)
+                    display.show()
+                    sleep(2)
+                    #then ill add for red, yellow, and animations
+                    # And ill dim the leds by reducing the rgb values
+        elif selected_item == "Animation":
+            current_menu = anim_submenu
+            selected = 0
+            in_submenu = True
+            if selected_item == "Back":
+                current_menu = main_menu
+            elif selected_item == "Breathing":
+                display.fill(0)
+                display.text(f"Selected: {selected_item}", 0, 0)
+                display.show()
+                sleep(2)
+                current_menu = anim_submenu
+                selected = 0 
+                in_submenu = True
+            elif selected_item == "Processing":
+                display.fill(0)
+                display.text(f"Selected: {selected_item}", 0, 0)
+                display.show()
+                sleep(2)
+                current_menu = anim_submenu
+                selected = 0 
+                in_submenu = True
+            else:
+                selected_item == "Malfunctioning"
+                display.fill(0)
+                display.text(f"Selected: {selected_item}", 0, 0)
+                display.show()
+                sleep(2)
+                current_menu = anim_submenu
+                selected = 0 
+                in_submenu = True
+                                
+        elif selected_item == "Display":
+            current_menu = display_submenu
+            selected = 0
+            in_submenu = True
+            if selected_item == "Back":
+                current_menu = main_menu
+            else:
+                selected_item == "Brightness" 
+                # Till i have the neopixels + add the rotary encoder funcionatlity to this
+                
+        else:            
+            if in_submenu == True:
+                if selected_item == "Back":
+                    current_menu == main_menu 
+                    selected = 0
+                    in_submenu = False
+            else : 
+                display.fill(0)
+                display.text(f"Selected: {selected_item}", 0, 0)
+                display.show()
+                sleep(2)
+                current_menu = main_menu
+                selected = 0 
+                in_submenu = False
+```
+
+Time Spent: 2.5 hours 
+
