@@ -429,3 +429,29 @@ while True:
 
 Time Spent: 2.5 hours 
 
+# June 27
+Completely forgot about one of the most important thing, the case for the LED ring!
+
+While i was doing some errands, i began thinking how i could diffuse the light of the leds so it isn't as bright as it is
+
+Found this video called [3D Printable Diffuser Experiments](https://www.youtube.com/watch?v=QKLVFMyfSbw&t=183s) by chipnotic and well 
+normal PLA filament is opaque so i went with .5mm of thickness so it diffuses the most with a short distance, it will be white PLA filament
+
+This is how it's turning out
+
+![image](https://github.com/user-attachments/assets/8794edea-6350-4afc-adb2-3a9d1f4f54c9)
+
+It will also have the snap fit feature on the top left, i made it so it doesn't break the led diffuser, i just hope it does let light through 🥀
+
+Also on the bottom right, you can see the led ring pcb will have space for the LEDs and a small pretursion to make it not move.
+
+![image](https://github.com/user-attachments/assets/20f842eb-ccef-4d81-b6b6-19812223a8e4)
+
+I'll also make the holes for the cables to go through so let's do that
+
+![image](https://github.com/user-attachments/assets/fedc5bee-7202-4266-bed2-169049e9eb04)
+
+It is done, i made it wide enough to fit the soldered wires through there
+
+Time Spent: 2 hours  
+
