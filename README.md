@@ -2,7 +2,7 @@ Hey, this is my first custom project for Highway!
 
 This is an LED ring (that goes in your temple) controlled by a XIAO ESP32-C3 to change it's colors, inspired by the Androids from Detroit: Become Human
 
-I always wanted to be able to create something entirely up from myself, and Highway gave me that possiblity
+I always wanted to be able to create something entirely up from myself, especially if i can wear it @ FRC events! Highway gave me that possiblity
 
 These are the MAIN 3d prints for the project, in JOURNAL.md you can see more!
 ![3d model control](https://github.com/user-attachments/assets/a4392eab-078d-4986-8282-bf9aa315bacd)
