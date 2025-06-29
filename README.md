@@ -1,20 +1,27 @@
-Hey, this is my first custom project for Highway!
-
+ **Hey, this is my first custom project for Highway!**
+# Cool! What is it?
 This is an LED ring (that goes in your temple) controlled by a XIAO ESP32-C3 to change it's colors, inspired by the Androids from Detroit: Become Human
 
+# But why tho
 I always wanted to be able to create something entirely up from myself, especially if i can wear it @ FRC events! Highway gave me that possiblity
 
+# 3D CASES
 These are the MAIN 3d prints for the project, in JOURNAL.md you can see more!
+
 ![3d model control](https://github.com/user-attachments/assets/a4392eab-078d-4986-8282-bf9aa315bacd)
 
 This is the LED ring case, more below theres a side view for more visualization
+
 ![LED RING CASE](https://github.com/user-attachments/assets/3f19986f-9dd6-4004-a5ec-02502ce583be)
 ![Analysis view](https://github.com/user-attachments/assets/981fe772-961f-4cc9-885c-880a43f72f22)
 
+# PCB 
 My PCB routing and 3d view, enjoy
+
 ![PCB 3D](https://github.com/user-attachments/assets/56b5fa7e-72a7-4207-ade0-0e6582589a1a)
 ![PCB routing](https://github.com/user-attachments/assets/59b5685a-ef8f-4207-8465-93e7dee524a1)
 
+# Wiring outside the PCB
 ![Soldering](https://github.com/user-attachments/assets/5cd9111c-84c7-4a3e-b18e-069dc7669891)
 
 
